@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: 'DancingScript';
+    src: url(../fonts/DancingScript-VariableFont_wght.ttf);
+}
+
+body{
+    background-image: url(../image/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    overflow-x: hidden;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+    width: 400px;
+    height: 80px;
+    padding: 16px 32px;
+    border: 2px solid black;
+    text-align: center;
+    font-size: large;
+    border-radius: 4%;
+    color: black;
+    background-color: rgba(255, 192, 203, 0.5);
+    font-size: 30px;
+}
+
+a:hover{
+    background-color: pink;
+    color: #fff;
+}
+
+@media (max-width: 432px) {
+    a{
+        width: 300px;
+        height: 100px;
+    }
+
+}
+
+@media (max-width: 400px) {
+    a{
+        font-size: 100;
+        width: 250px;
+        height: 100px;
+    }
+}
+/* Start Header */
+header {
+    height: 200px;
+    text-align: center;
+    margin-bottom: 100px;
+    margin-top: 16px;
+    font-family: 'DancingScript';
+    font-size: 32px;
+}
+
+img{
+    max-height: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+@media only screen and (max-width: 540px){
+    header{
+        margin-bottom: 200px;
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width: 415px){
+    header{
+        height: 100px;
+
+    }
+}
+/* End Header */
+
+/* Start Main */
+main{
+    display: flex;
+    height: 600px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 200px;
+    font-family: 'DancingScript', Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (max-width: 432px){
+    main{
+        height: 700px;
+    }
+}
+
+.link{
+    height: 30px;
+    width: auto;
+    margin-right: 10px;
+}
+/* End Main */
